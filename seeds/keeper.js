@@ -1,5 +1,4 @@
 exports.seed = async function(knex) {
-  // Deletes ALL existing entries
   await knex('emoji').del()
   await knex('emoji').insert([
     {
